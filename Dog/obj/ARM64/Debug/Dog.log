@@ -1,0 +1,12 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.11.110”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ControlServer.cpp
+C:\Users\HatcherVan\Desktop\Dog\Dog\ControlServer.cpp(39,16): warning : conversion to ‘float’ alters ‘double’ constant value [-Wfloat-conversion]
+C:\Users\HatcherVan\Desktop\Dog\Dog\ControlServer.cpp(39,16): warning :      float dt = 0.002;     // 0.001~0.01
+C:\Users\HatcherVan\Desktop\Dog\Dog\ControlServer.cpp(39,16): warning :                 ^~~~~
+  正在链接对象
+  Dog.vcxproj -> C:\Users\HatcherVan\Desktop\Dog\Dog\bin\ARM64\Debug\Dog.out

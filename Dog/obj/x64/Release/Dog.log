@@ -1,0 +1,39 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.43.229”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+  正在链接对象
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：在函数‘cv : error : String::~String()’中：
+/usr/include/opencv2/core/cvstd.hpp : error : 664：对‘cv::String::deallocate()’未定义的引用
+/usr/include/opencv2/core/cvstd.hpp : error : 664：对‘cv::String::deallocate()’未定�的引�
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：��函数‘cv : error : String::operator=(cv::String const&)�中：
+/usr/include/opencv2/core/cvstd.hpp : error : 672�对‘cv::String::deallocate()’未定义�引用
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：�函数��cv : error : String::String(char const*)’中：
+/usr/include/opencv2/core/cvstd.hpp : error : 622：对��cv::String::allocate(unsigned long)’�定义�引用
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：�函数‘cv : error : Mat::release()’中：
+/usr/include/opencv2/core/mat.inl.hpp : error : 704：对‘cv::Mat::deallocate()’未�义的引用
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：在��数�cv : error : Mat::~Mat()’��：
+/usr/include/opencv2/core/mat.inl.hpp : error : 592：��‘cv::fastFree(void*)�未定��的�用
+/usr/include/opencv2/core/mat.inl.hpp : error : /home/hatcher/projects/Dog/obj/x64/Release/main.o��在函数‘main’中��
+C:\Users\HatcherVan\Desktop\Dog\Dog\main.cpp : error : 5：对��cv::namedWindow(cv::String const&, int)’未��义的引用
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：在函数�cv : error : String::~String()’中：
+/usr/include/opencv2/core/cvstd.hpp : error : 664：对‘cv::String::deallocate()’未��义�引用
+/usr/include/opencv2/core/cvstd.hpp : error : /home/hatcher/projects/Dog/obj/x64/Release/main.o：�函数��main’��：
+C:\Users\HatcherVan\Desktop\Dog\Dog\main.cpp : error : 6：对‘cv::VideoCapture::VideoCapture(int)’未�义的引用
+C:\Users\HatcherVan\Desktop\Dog\Dog\main.cpp : error : 11：对‘cv::VideoCapture::operator>>(cv::Mat&)’未�义的引用
+C:\Users\HatcherVan\Desktop\Dog\Dog\main.cpp : error : 12：对‘cv::imshow(cv::String const&, cv::_InputArray const&)�未定义的�用
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o��在�数‘cv : error : String::~String()’�：
+/usr/include/opencv2/core/cvstd.hpp : error : 664：对‘cv::String::deallocate()�未定��的�用
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：在函数‘cv : error : Mat::~Mat()’中：
+/usr/include/opencv2/core/mat.inl.hpp : error : 592：对‘cv::fastFree(void*)’�定义��引�
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：��函数‘cv : error : Mat::release()�中：
+/usr/include/opencv2/core/mat.inl.hpp : error : 704�对‘cv::Mat::deallocate()’未定义�引用
+C:\Users\HatcherVan\Desktop\Dog\Dog\obj\x64\Release\main.o：�函数‘cv : error : String::~String()’中：
+/usr/include/opencv2/core/cvstd.hpp : error : 664：对‘cv::String::deallocate()’未定义�引用
+/usr/include/opencv2/core/cvstd.hpp : error : 664��对‘cv::String::deallocate()’�定义��引�
+/usr/include/opencv2/core/cvstd.hpp : error : /home/hatcher/projects/Dog/obj/x64/Release/main.o：在�数‘main’中��
+C:\Users\HatcherVan\Desktop\Dog\Dog\main.cpp : error : 6：对��cv::VideoCapture::~VideoCapture()�未定义的�用
+collect2 : error : ld returned 1 exit status

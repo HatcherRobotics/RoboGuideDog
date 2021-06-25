@@ -1,0 +1,1 @@
+g++ -o "/home/hatcher/projects/Dog/bin/x64/Debug/Dog.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/hatcher/projects/Dog/obj/x64/Debug/main.o -lopencv_core -lopencv_videoio -lopencv_highgui -lopencv_ml -lopencv_imgproc
