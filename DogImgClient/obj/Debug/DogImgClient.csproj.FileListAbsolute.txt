@@ -1,0 +1,8 @@
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\bin\Debug\DogImgClient.exe.config
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\bin\Debug\DogImgClient.exe
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\bin\Debug\DogImgClient.pdb
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\obj\Debug\DogImgClient.csproj.CoreCompileInputs.cache
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\obj\Debug\DogImgClient.exe
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\obj\Debug\DogImgClient.pdb
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\obj\Debug\DogImgClient.MainForm.resources
+C:\Users\HatcherVan\Desktop\Dog\DogImgClient\obj\Debug\DogImgClient.csproj.GenerateResource.cache
