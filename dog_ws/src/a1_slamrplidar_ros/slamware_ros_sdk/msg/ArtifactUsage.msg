@@ -1,0 +1,6 @@
+
+int8 UNKNOWN=-1
+int8 VIRTUAL_WALL=0
+int8 VIRTUAL_TRACK=1
+
+int8 usage

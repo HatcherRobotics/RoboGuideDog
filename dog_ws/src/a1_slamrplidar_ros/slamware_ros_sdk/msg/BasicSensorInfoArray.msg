@@ -1,0 +1,2 @@
+
+BasicSensorInfo[] sensors_info

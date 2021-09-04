@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/hatcher/dog_ws/devel/include/**",
+        "/home/hatcher/robocon_ws/devel/include/**",
+        "/home/hatcher/dog_nav/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/hatcher/dog_ws/src/a1_robot_start/include/**",
+        "/home/hatcher/dog_ws/src/navigation/amcl/include/**",
+        "/home/hatcher/robocon_ws/src/arc_draw/include/**",
+        "/home/hatcher/dog_ws/src/navigation/base_local_planner/include/**",
+        "/home/hatcher/dog_ws/src/navigation/carrot_planner/include/**",
+        "/home/hatcher/robocon_ws/src/circle_segment/include/**",
+        "/home/hatcher/dog_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/hatcher/dog_ws/src/navigation/costmap_2d/include/**",
+        "/home/hatcher/dog_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/hatcher/robocon_ws/src/feature_extraction/include/**",
+        "/home/hatcher/dog_ws/src/navigation/global_planner/include/**",
+        "/home/hatcher/lidar_slam_ws/src/kitti_visualization/include/**",
+        "/home/hatcher/robocon_ws/src/lidar_test/include/**",
+        "/home/hatcher/dog_ws/src/navigation/map_server/include/**",
+        "/home/hatcher/dog_ws/src/navigation/move_base/include/**",
+        "/home/hatcher/dog_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/hatcher/dog_ws/src/navigation/nav_core/include/**",
+        "/home/hatcher/dog_ws/src/navigation/navfn/include/**",
+        "/home/hatcher/dog_ws/src/robot_pose_ekf/include/**",
+        "/home/hatcher/dog_ws/src/navigation/rotate_recovery/include/**",
+        "/home/hatcher/dog_nav/src/slamware_ros_sdk/include/**",
+        "/home/hatcher/dog_nav/src/slamware_sdk/include/**",
+        "/home/hatcher/robocon_ws/src/urg_node-kinetic-devel/include/**",
+        "/home/hatcher/robocon_ws/src/view_test/include/**",
+        "/home/hatcher/dog_ws/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

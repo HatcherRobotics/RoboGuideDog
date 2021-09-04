@@ -1,0 +1,8 @@
+
+#request
+uint8[] raw_stcm
+geometry_msgs/Pose robot_pose
+
+---
+
+#response

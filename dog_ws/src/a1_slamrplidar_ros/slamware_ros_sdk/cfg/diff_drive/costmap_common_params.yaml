@@ -1,0 +1,30 @@
+#---(in meters)---
+robot_radius: 0.0
+footprint_padding: 0.0
+footprint: [[-0.4,0.25],[0.4,0.25],[0.4,-0.25],[-0.4,-0.25]]  
+transform_tolerance: 0.2
+map_type: costmap
+
+always_send_full_costmap: true
+
+obstacle_layer:
+ enabled: true
+ obstacle_range: 3.0
+ raytrace_range: 4.0
+ inflation_radius: 0.2
+ track_unknown_space: true 
+ combination_method: 1  
+
+ observation_sources: laser_scan_sensor
+ laser_scan_sensor: {data_type: LaserScan, topic: /slamware_ros_sdk_server_node/scan, marking: true, clearing: true}
+
+
+inflation_layer:
+  enabled:              true
+  cost_scaling_factor:  0.55 
+  inflation_radius:     0.5 
+
+static_layer:
+  enabled:              true
+  map_topic:            "/slamware_ros_sdk_server_node/map"
+

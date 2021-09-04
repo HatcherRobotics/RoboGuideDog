@@ -1,0 +1,18 @@
+
+#include "server_work_data.h"
+
+#include <boost/assert.hpp>
+
+namespace slamware_ros_sdk {
+
+    //////////////////////////////////////////////////////////////////////////
+
+    ServerWorkData::ServerWorkData()
+    	: syncMapRequested(true)
+    {
+    	//
+    }
+
+    //////////////////////////////////////////////////////////////////////////
+    
+}

@@ -1,0 +1,25 @@
+<launch>
+	
+    <include file="$(find slamware_ros_sdk)/launch/slamware_ros_sdk_server_node.launch" >
+        <arg name="move_base_goal_topic" value="disable"/>
+        <arg name="ip_address" value="192.168.11.1" />
+    </include>
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <rosparam file="$(find slamware_ros_sdk)/cfg/diff_drive/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find slamware_ros_sdk)/cfg/diff_drive/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find slamware_ros_sdk)/cfg/diff_drive/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find slamware_ros_sdk)/cfg/diff_drive/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find slamware_ros_sdk)/cfg/diff_drive/teb_local_planner_params.yaml" command="load" ns="TebLocalPlannerROS"/>
+
+        <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+        <param name="planner_frequency" value="1.0" />
+        <param name="planner_patience" value="5.0" />
+
+        <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+        <param name="controller_frequency" value="5.0" />
+        <param name="controller_patience" value="15.0" />
+    </node>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find slamware_ros_sdk)/rviz/slamware_ros_sdk_teb.rviz" />
+</launch>

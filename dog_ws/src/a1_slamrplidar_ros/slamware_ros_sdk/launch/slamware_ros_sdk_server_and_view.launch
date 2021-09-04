@@ -1,0 +1,10 @@
+<!--
+  Used for visualising rplidar in action.  
+  
+  It requires rplidar.launch.
+ -->
+<launch>
+  <include file="$(find slamware_ros_sdk)/launch/slamware_ros_sdk_server_node.launch" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find slamware_ros_sdk)/rviz/slamware_ros_sdk_server_node.rviz" />
+</launch>

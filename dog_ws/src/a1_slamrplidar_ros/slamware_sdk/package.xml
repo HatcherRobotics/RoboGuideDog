@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>slamware_sdk</name>
+  <version>2.6.7</version>
+  <description>The slamware_sdk package</description>
+
+  <maintainer email="ros@slamtec.com">Slamtec Ros Maintainer</maintainer>
+  <license>BSD</license>
+  <url type="website">http://developer.slamtec.com/docs/slamware/ros-sdk/2.6.0_rtm/</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
